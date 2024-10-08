@@ -1,0 +1,182 @@
+.bg-brand {
+    background-color: #001489;
+}
+body {
+    background: #e8e8e2;
+    color: rgb(67, 67, 67);
+}
+.card {
+    border-radius: 0px !important;
+}
+.required_text::after {
+    content: " *";
+    color: red;
+}
+.blockquote-footer.h4 {
+    font-size: unset;
+}
+/* HEADER */
+.topbar {
+    height: 80px;
+}
+.topbar nav {
+    height: 100%;
+    padding-left: 50px;
+    top: 0;
+    /* background: rgba(12, 3, 177, 0.85) !important; */
+    border-bottom: 1px solid #0913a0;
+}
+.topbar a {
+    color: #fff !important;
+}
+.topbar img {
+    max-height: 70px;
+}
+.navbar-brand h5 {
+    padding-top: 2px;
+    font-weight: bold;
+    /* float: right; */
+}
+.flag-company {
+    width: 30px;
+    margin: 10px;
+    float: left;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-red {
+    background-color: red
+}
+.bg-yellow {
+    background-color: yellow;
+}
+/* END HEADER */
+
+/* MAIN SECTION */
+#registration-section {
+    margin-top: 80px !important;
+    padding: 30px;
+    min-height: 314px !important;
+}
+@media (min-width: 576px) {
+    .line-right {
+        border-right: 1px solid #333;
+    }
+}
+::placeholder {
+    color: #979797;
+    opacity: 1;
+    font-weight: 300;
+}
+:-ms-input-placeholder {
+    color: #979797;
+    font-weight: 300;
+}
+:-ms-input-placeholder {
+    color: #979797;
+    font-weight: 300;
+}
+.registration-input {
+    padding: 7px 12px 7px 12px !important;
+    border: 1px solid lightgrey !important;
+    border-radius: 2px !important;
+    /* margin-bottom: 5px; */
+    /* margin-top: 2px; */
+    width: 100% !important;
+    height: auto;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+.form-control {
+    box-sizing: border-box !important;
+    border: 1px solid lightgrey !important;
+    border-radius: 2px !important;
+}
+.registration-input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304FFE;
+    outline-width: 0
+}
+/* button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+} */
+/* END MAIN SECTION */
+
+/* REGISTRATION SECTION */
+.nav-registration {
+    border: 1px solid #001489;
+}
+.nav-registration .nav-link {
+    cursor: pointer;
+    border-radius: 0px;
+}
+.nav-registration .nav-link:hover {
+    background: #001489 !important;
+    color: aliceblue;
+}
+.nav-registration .nav-link.active {
+    background: #2538aa;
+}
+.nav-registration .nav-link.active span {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fff;
+}
+.card-registration, .card-status {
+    border-top: 1px solid #001489;
+    padding: 20px 0 10px 0;
+}
+/* END REGISTRATION SECTION */
+
+/* ANIMATION */
+.stageinfo_anim {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+.stagenav_anim {
+    animation: fadeInDown;
+    animation-duration: 1s;
+}
+.stagereg_anim {
+    animation: fadeInRight;
+    animation-duration: 1s;
+}
+.stagestat_anim {
+    animation: flip;
+    animation-duration: 1s;
+}
+.stageanim_flip {
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+/* END ANIMATION */
+
+/* LAYOUT ACCOUNT */
+.side-profile a {
+    text-align: center;
+}
+.pp-img {
+    max-width: 200px;
+    padding-top: 15px;
+}
+.page-account {
+    font-size: 14px;
+}
+.account_pages .nav-account {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.nav-account .nav-link.active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #001489;
+    color: #001489;
+}
+/* END LAYOUT ACCOUNT */

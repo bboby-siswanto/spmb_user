@@ -1,0 +1,18 @@
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set X-Frame-Options "ALLOW-FROM https://kk.iuli.ac.id"
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "no-referrer-when-downgrade"
+Header always set Permissions-Policy "microphone=()"
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule (.*) index.php/$1
+
+    Redirect 301 "/account/signup" "https://pmb.iuli.ac.id/"
+	Redirect 301 "/kelaskaryawan" "https://pmb.iuli.ac.id/karyawan"
+	Redirect 301 "/electronic-journal" "https://portal.iuli.ac.id/apps/electronic_journal/ejournal"
+</IfModule>
